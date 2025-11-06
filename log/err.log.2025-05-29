@@ -1,0 +1,844 @@
+2025-05-29 18:23:48 [ERROR] : 钉钉推送返回异常结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+NoneType: None
+2025-05-29 18:23:48 [ERROR] : NoneType: None
+NoneType: None
+2025-05-29 18:23:49 [ERROR] : 钉钉推送返回异常结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+NoneType: None
+2025-05-29 18:23:49 [ERROR] : NoneType: None
+NoneType: None
+2025-05-29 18:23:50 [ERROR] : 钉钉推送返回异常结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+NoneType: None
+2025-05-29 18:23:50 [ERROR] : NoneType: None
+NoneType: None
+2025-05-29 18:23:51 [ERROR] : 钉钉推送返回异常结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+NoneType: None
+2025-05-29 18:23:51 [ERROR] : NoneType: None
+NoneType: None
+2025-05-29 18:23:52 [ERROR] : 钉钉推送返回异常结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+NoneType: None
+2025-05-29 18:23:52 [ERROR] : NoneType: None
+NoneType: None
+2025-05-29 18:23:52 [ERROR] : 钉钉推送返回异常结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+NoneType: None
+2025-05-29 18:23:52 [ERROR] : NoneType: None
+NoneType: None
+2025-05-29 18:23:53 [ERROR] : 钉钉推送返回异常结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+NoneType: None
+2025-05-29 18:23:53 [ERROR] : NoneType: None
+NoneType: None
+2025-05-29 19:06:26 [ERROR] : 消息发送失败，HTTP connection error!
+2025-05-29 19:06:26 [ERROR] : 钉钉推送出现异常: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ~~~~~~~~~~~~~~~^
+        sock=conn,
+        ^^^^^^^^^^
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+        sock, context, tls_in_tls, server_hostname=server_hostname
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 1112, in dingding
+    result = ding.send_text(msg='{}\r\n{}'.format(text, msg), is_at_all=False)
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+           ~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2025-05-29 19:06:26 [ERROR] : Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ~~~~~~~~~~~~~~~^
+        sock=conn,
+        ^^^^^^^^^^
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+        sock, context, tls_in_tls, server_hostname=server_hostname
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 1112, in dingding
+    result = ding.send_text(msg='{}\r\n{}'.format(text, msg), is_at_all=False)
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+           ~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ~~~~~~~~~~~~~~~^
+        sock=conn,
+        ^^^^^^^^^^
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+        sock, context, tls_in_tls, server_hostname=server_hostname
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 1112, in dingding
+    result = ding.send_text(msg='{}\r\n{}'.format(text, msg), is_at_all=False)
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+           ~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2025-05-29 19:06:26 [ERROR] : Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ~~~~~~~~~~~~~~~^
+        sock=conn,
+        ^^^^^^^^^^
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+        sock, context, tls_in_tls, server_hostname=server_hostname
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 1112, in dingding
+    result = ding.send_text(msg='{}\r\n{}'.format(text, msg), is_at_all=False)
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+           ~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ~~~~~~~~~~~~~~~^
+        sock=conn,
+        ^^^^^^^^^^
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+        sock, context, tls_in_tls, server_hostname=server_hostname
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 1112, in dingding
+    result = ding.send_text(msg='{}\r\n{}'.format(text, msg), is_at_all=False)
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+           ~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2025-05-29 19:06:26 [ERROR] : Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ~~~~~~~~~~~~~~~^
+        sock=conn,
+        ^^^^^^^^^^
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+        sock, context, tls_in_tls, server_hostname=server_hostname
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 1112, in dingding
+    result = ding.send_text(msg='{}\r\n{}'.format(text, msg), is_at_all=False)
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+           ~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ~~~~~~~~~~~~~~~^
+        sock=conn,
+        ^^^^^^^^^^
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+        sock, context, tls_in_tls, server_hostname=server_hostname
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 1112, in dingding
+    result = ding.send_text(msg='{}\r\n{}'.format(text, msg), is_at_all=False)
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+           ~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='oapi.dingtalk.com', port=443): Max retries exceeded with url: /robot/send?access_token=e8244d1ca9bc721b6b123a24d6a7ee8f05f3c07c8b154e9a14968c5d05230b28&timestamp=1748516781369&sign=1%2BVItlR38%2BEDx0ll%2BELnFz%2B%2BPm%2BOAtbk2ZXC%2BCkMaCA%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2025-05-29 19:22:35 [ERROR] : 获取 [OSCS1024漏洞库] 漏洞信息异常: HTTPSConnectionPool(host='www.oscs1024.com', port=443): Max retries exceeded with url: /oscs/v1/vdb/vuln_info (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ~~~~~~~~~~~~~~~^
+        sock=conn,
+        ^^^^^^^^^^
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+        sock, context, tls_in_tls, server_hostname=server_hostname
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.oscs1024.com', port=443): Max retries exceeded with url: /oscs/v1/vdb/vuln_info (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 194, in vulnerabilities
+    new_vulnerabilities = self.get_vulnerabilities()
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 337, in get_vulnerabilities
+    response = requests.get(
+        self.url,
+        headers=self.headers(),
+        timeout=self.timeout
+    )
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.oscs1024.com', port=443): Max retries exceeded with url: /oscs/v1/vdb/vuln_info (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-05-29 19:22:35 [ERROR] : Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ~~~~~~~~~~~~~~~^
+        sock=conn,
+        ^^^^^^^^^^
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+        sock, context, tls_in_tls, server_hostname=server_hostname
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.oscs1024.com', port=443): Max retries exceeded with url: /oscs/v1/vdb/vuln_info (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 194, in vulnerabilities
+    new_vulnerabilities = self.get_vulnerabilities()
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 337, in get_vulnerabilities
+    response = requests.get(
+        self.url,
+        headers=self.headers(),
+        timeout=self.timeout
+    )
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.oscs1024.com', port=443): Max retries exceeded with url: /oscs/v1/vdb/vuln_info (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+                ~~~~~~~~~~~~~~~^
+        sock=conn,
+        ^^^^^^^^^^
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+        sock, context, tls_in_tls, server_hostname=server_hostname
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<8 lines>...
+        timeout=timeout,
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+        method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\Python313\Lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.oscs1024.com', port=443): Max retries exceeded with url: /oscs/v1/vdb/vuln_info (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 194, in vulnerabilities
+    new_vulnerabilities = self.get_vulnerabilities()
+  File "C:\Users\Administrator\Desktop\监控推送\推送_修复重复推送\bug_msg.py", line 337, in get_vulnerabilities
+    response = requests.get(
+        self.url,
+        headers=self.headers(),
+        timeout=self.timeout
+    )
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python313\Lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python313\Lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.oscs1024.com', port=443): Max retries exceeded with url: /oscs/v1/vdb/vuln_info (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))

@@ -1,0 +1,8 @@
+requests
+pyyaml
+lxml
+telegram
+dingtalkchatbot
+urllib3
+psutil
+telegram

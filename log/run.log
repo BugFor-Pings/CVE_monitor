@@ -1,0 +1,482 @@
+2025-11-06 21:35:55 [INFO] : === 漏洞监控程序启动 ===
+2025-11-06 21:35:55 [INFO] : 开始运行，当前日期: 2025-11-06
+2025-11-06 21:35:55 [INFO] : 开始新一轮漏洞获取...当前日期: 2025-11-06
+2025-11-06 21:35:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2025-11-06 21:35:55 [INFO] : 正在获取 [OSCS1024漏洞库] 漏洞信息...
+2025-11-06 21:35:56 [INFO] : 使用CVE编号作为ID: CVE-2025-11268
+2025-11-06 21:35:56 [INFO] : 处理OSCS1024漏洞: CVE-2025-11268 漏洞, ID: CVE-2025-11268
+2025-11-06 21:35:56 [INFO] : 使用CVE编号作为ID: CVE-2025-12360
+2025-11-06 21:35:56 [INFO] : 处理OSCS1024漏洞: CVE-2025-12360漏洞, ID: CVE-2025-12360
+2025-11-06 21:35:56 [INFO] : 使用CVE编号作为ID: CVE-2025-10259
+2025-11-06 21:35:56 [INFO] : 处理OSCS1024漏洞: CVE-2025-10259 漏洞, ID: CVE-2025-10259
+2025-11-06 21:35:56 [INFO] : 使用CVE编号作为ID: CVE-2025-12471
+2025-11-06 21:35:56 [INFO] : 处理OSCS1024漏洞: CVE-2025-12471漏洞, ID: CVE-2025-12471
+2025-11-06 21:35:56 [INFO] : 使用CVE编号作为ID: CVE-2025-12560
+2025-11-06 21:35:56 [INFO] : 处理OSCS1024漏洞: CVE-2025-12560漏洞, ID: CVE-2025-12560
+2025-11-06 21:35:56 [INFO] : 使用CVE编号作为ID: CVE-2025-9338
+2025-11-06 21:35:56 [INFO] : 处理OSCS1024漏洞: CVE-2025-9338 漏洞, ID: CVE-2025-9338
+2025-11-06 21:35:56 [INFO] : 使用CVE编号作为ID: CVE-2025-61994
+2025-11-06 21:35:56 [INFO] : 处理OSCS1024漏洞: CVE-2025-61994漏洞, ID: CVE-2025-61994
+2025-11-06 21:35:56 [INFO] : 使用CVE编号作为ID: CVE-2025-12563
+2025-11-06 21:35:56 [INFO] : 处理OSCS1024漏洞: CVE-2025-12563漏洞, ID: CVE-2025-12563
+2025-11-06 21:35:56 [INFO] : 使用CVE编号作为ID: CVE-2025-11271
+2025-11-06 21:35:56 [INFO] : 处理OSCS1024漏洞: CVE-2025-11271漏洞, ID: CVE-2025-11271
+2025-11-06 21:35:56 [INFO] : 使用CVE编号作为ID: CVE-2025-10691
+2025-11-06 21:35:56 [INFO] : 处理OSCS1024漏洞: CVE-2025-10691漏洞, ID: CVE-2025-10691
+2025-11-06 21:35:56 [INFO] : 使用目标日期: 2025-11-06 过滤漏洞信息
+2025-11-06 21:35:56 [INFO] : 发现新漏洞：CVE-2025-11268 漏洞，ID：CVE-2025-11268
+2025-11-06 21:35:56 [INFO] : 发现新漏洞：CVE-2025-12360漏洞，ID：CVE-2025-12360
+2025-11-06 21:35:56 [INFO] : 发现新漏洞：CVE-2025-10259 漏洞，ID：CVE-2025-10259
+2025-11-06 21:35:56 [INFO] : 发现新漏洞：CVE-2025-12471漏洞，ID：CVE-2025-12471
+2025-11-06 21:35:56 [INFO] : 发现新漏洞：CVE-2025-12560漏洞，ID：CVE-2025-12560
+2025-11-06 21:35:56 [INFO] : 发现新漏洞：CVE-2025-9338 漏洞，ID：CVE-2025-9338
+2025-11-06 21:35:56 [INFO] : 发现新漏洞：CVE-2025-61994漏洞，ID：CVE-2025-61994
+2025-11-06 21:35:56 [INFO] : 发现新漏洞：CVE-2025-12563漏洞，ID：CVE-2025-12563
+2025-11-06 21:35:56 [INFO] : 发现新漏洞：CVE-2025-11271漏洞，ID：CVE-2025-11271
+2025-11-06 21:35:56 [INFO] : 发现新漏洞：CVE-2025-10691漏洞，ID：CVE-2025-10691
+2025-11-06 21:35:56 [INFO] : 得到 [OSCS1024漏洞库] 最新漏洞信息 [10] 条
+2025-11-06 21:35:56 [INFO] : --------------------------------------------
+2025-11-06 21:35:56 [INFO] : 从OSCS1024获取到 10 条新漏洞
+2025-11-06 21:35:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2025-11-06 21:35:58 [INFO] : 正在获取 [安天(antiycloud)] 威胁情报...
+2025-11-06 21:35:58 [INFO] : [安天(antiycloud)] 使用当前日期 20251106 获取安天威胁情报
+2025-11-06 21:35:59 [ERROR] : API返回状态不是success，状态为：except
+NoneType: None
+2025-11-06 21:35:59 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 21:35:59 [INFO] : 得到 [安天(antiycloud)] 新增威胁情报 [0/0] 条
+2025-11-06 21:35:59 [INFO] : --------------------------------------------
+2025-11-06 21:36:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2025-11-06 21:36:01 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2025-11-06 21:36:02 [INFO] : 发现新威胁情报：PocketVJ CP PocketVJ-CP-v3 pvj version 3.9.1 contains an unauthenticated remote code execution vulnerability in the submit_opacity.php component. The application fails to sanitize user input in the opacityValue POST parameter before passing it to a shell command, allowing remote attackers to execute arbitrary commands with root privileges on the underlying system.，ID：CVE-2025-63334
+2025-11-06 21:36:02 [INFO] : 发现新威胁情报：A reflected cross-site scripting (XSS) vulnerability exists in the management console of multiple WSO2 products due to improper output encoding. By tampering with specific parameters, a malicious actor can inject arbitrary JavaScript into the response, leading to reflected XSS. Successful exploitation could result in UI manipulation, redirection to malicious websites, or data theft from the browser. However, session-related sensitive cookies are protected with the httpOnly flag, which mitigates the risk of session hijacking.，ID：CVE-2025-10853
+2025-11-06 21:36:02 [INFO] : 发现新威胁情报：A DOM-based Cross-Site Scripting (XSS) vulnerability in the SelfBest platform 2023.3 allows attackers to execute arbitrary JavaScript in the context of a logged-in user's session by injecting payloads via the browser's developer console. The vulnerability arises from the application's client-side code being susceptible to direct DOM manipulation without adequate sanitization or a Content Security Policy (CSP), potentially leading to account takeover and data theft.，ID：CVE-2025-63418
+2025-11-06 21:36:02 [INFO] : 发现新威胁情报：A Stored Cross-Site Scripting (XSS) vulnerability in the chat functionality of the SelfBest platform 2023.3 allows authenticated attackers to inject arbitrary web scripts or HTML via the chat message input field. This malicious content is stored and then executed in the context of other users' browsers when they view the malicious message, potentially leading to session hijacking, account takeover, or other client-side attacks.，ID：CVE-2025-63417
+2025-11-06 21:36:02 [INFO] : 发现新威胁情报：** exclusively-hosted-service ** A Stored Cross-Site Scripting (XSS) vulnerability in the chat functionality of the SelfBest platform 2023.3 allows authenticated low-privileged attackers to execute arbitrary JavaScript in the context of other users' sessions. This can be exploited to access administrative data and functions, leading to privilege escalation and full compromise of sensitive user data, as demonstrated by the ability to fetch and exfiltrate the contents of the /admin/users endpoint.，ID：CVE-2025-63416
+2025-11-06 21:36:02 [INFO] : 发现新威胁情报：A reflected cross-site scripting (XSS) vulnerability exists in the authentication endpoints of multiple WSO2 products due to a lack of output encoding. A malicious actor can inject arbitrary JavaScript payloads into the authentication endpoint, which are reflected back in the response, enabling browser-based attacks. Exploitation may result in redirection to malicious websites, UI manipulation, or unauthorized data access from the victim’s browser. However, session-related cookies are protected with the httpOnly flag, which mitigates session hijacking via this vector.，ID：CVE-2025-5770
+2025-11-06 21:36:02 [INFO] : 发现新威胁情报：GOG Galaxy 2.0.0.2 suffers from Missing SSL Certificate Validation. An attacker who controls the local network, DNS, or a proxy can perform a man-in-the-middle (MitM) attack to intercept update requests and replace installer or update packages with malicious files.，ID：CVE-2025-56232
+2025-11-06 21:36:02 [INFO] : 发现新威胁情报：Quipux 4.0.1 through e1774ac allows authenticated users to conduct SQL injection attacks via busqueda/busqueda.php txt_depe_codi, busqueda/busqueda.php txt_usua_codi, anexos_lista.php radi_temp, Administracion/listas/formArea_ajax.php codDepe, Administracion/listas/formDepeHijo_ajax.php codDepe, Administracion/listas/formDepePadre_ajax.php codInst, asociar_documentos/asociar_borrar_referencia.php radi_nume, asociar_documentos/asociar_documento_buscar_query.php radi_nume, asociar_documentos/asociar_documento_grabar.php txt_radi_nume, asociar_documentos/asociar_documento radi_nume, radicacion/buscar_usuario.php buscar_tipo, radicacion/formArea_ajax.php codDepe, radicacion/formDepeHijo_ajax.php codDepe, radicacion/formDepePadre_ajax.php codInst, radicacion/ver_datos_usuario.php destinatorio, reportes/reporte_TraspasoDocFisico.php verrad, tx/datos_imprimir_sobre.php txt_usua_codi, tx/datos_imprimir_sobre.php nume_radi_temp, tx/revertir_firma_digital_grabar.php txt_radi_nume, tx/tx_borrar_opcion_imp.php codigo_opc, tx/tx_realizar_tx.php txt_radicados, tx/tx_seguridad_documentos.php txt_radicados, or uploadFiles/cargar_doc_digitalizado_paginador.php txt_depe_codi.，ID：CVE-2025-55343
+2025-11-06 21:36:02 [INFO] : 发现新威胁情报：Quipux 4.0.1 through e1774ac allows enumeration of usernames, and accessing the Ecuadorean identification number for all registered users via the Administracion/usuarios/cambiar_password_olvido_validar.php txt_login parameter.，ID：CVE-2025-55342
+2025-11-06 21:36:02 [INFO] : 发现新威胁情报：Cross Site Scripting vulnerability in Quipux 4.0.1 through e1774ac allows anexos/anexos_nuevo.php asocImgRad.，ID：CVE-2025-55341
+2025-11-06 21:36:02 [INFO] : 得到 [Tenable (Nessus)] 新增威胁情报 [10/10] 条
+2025-11-06 21:36:02 [INFO] : --------------------------------------------
+2025-11-06 21:36:02 [INFO] : 从Tenable获取到 10 条新漏洞
+2025-11-06 21:36:04 [INFO] : 正在从微软安全响应中心获取数据...
+2025-11-06 21:36:06 [INFO] : 微软安全响应中心API返回数据总量: 17359 条
+2025-11-06 21:36:06 [INFO] : 使用当前日期 2025-11-06 过滤微软安全响应中心漏洞
+2025-11-06 21:36:06 [INFO] : 从微软安全响应中心获取到 0/0 条新漏洞数据
+2025-11-06 21:36:08 [INFO] : [CVE漏洞库] 开始获取最新CVE信息
+2025-11-06 21:36:10 [INFO] : [CVE漏洞库] 使用当前日期 2025-11-06 过滤CVE信息
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-11268漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-12360漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-10259漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-12471漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-9338漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-12560漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-11271漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-12563漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-61994漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64472漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64473漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64474漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64475漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64476漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64477漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64478漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64479漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64480漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-10691漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-10683漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64164漏洞
+2025-11-06 21:36:10 [INFO] : 发现新CVE: CVE-2025-64171漏洞
+2025-11-06 21:36:10 [INFO] : [CVE漏洞库] 获取到 22/22 条新CVE信息
+2025-11-06 21:36:10 [INFO] : 从CVE漏洞库获取到 22 条新漏洞
+2025-11-06 21:36:10 [INFO] : 本次总共获取到 42 条新漏洞信息
+2025-11-06 21:36:10 [INFO] : 开始读取配置文件...
+2025-11-06 21:36:10 [INFO] : 配置文件读取成功
+2025-11-06 21:36:10 [INFO] : 启用钉钉推送，webhook长度: 114, secretKey长度: 67
+2025-11-06 21:36:10 [INFO] : 获取到推送配置，使用 dingding 服务
+2025-11-06 21:36:10 [INFO] : 插入新漏洞成功：CVE-2025-11268 漏洞
+2025-11-06 21:36:10 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 118
+2025-11-06 21:36:10 [INFO] : 钉钉推送返回结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+2025-11-06 21:36:10 [ERROR] : 钉钉推送返回异常结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+NoneType: None
+2025-11-06 21:36:10 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 21:36:10 [INFO] : 钉钉推送结果: 失败 - CVE-2025-11268 漏洞
+2025-11-06 21:36:10 [INFO] : 插入新漏洞成功：CVE-2025-12360漏洞
+2025-11-06 21:36:10 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 117
+2025-11-06 21:36:11 [INFO] : 钉钉推送返回结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+2025-11-06 21:36:11 [ERROR] : 钉钉推送返回异常结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+NoneType: None
+2025-11-06 21:36:11 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 21:36:11 [INFO] : 钉钉推送结果: 失败 - CVE-2025-12360漏洞
+2025-11-06 21:36:11 [INFO] : 插入新漏洞成功：CVE-2025-10259 漏洞
+2025-11-06 21:36:11 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 118
+2025-11-06 21:36:11 [INFO] : 钉钉推送返回结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+2025-11-06 21:36:11 [ERROR] : 钉钉推送返回异常结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+NoneType: None
+2025-11-06 21:36:11 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 21:36:11 [INFO] : 钉钉推送结果: 失败 - CVE-2025-10259 漏洞
+2025-11-06 21:36:11 [INFO] : 插入新漏洞成功：CVE-2025-12471漏洞
+2025-11-06 21:36:11 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 117
+2025-11-06 21:36:12 [INFO] : 钉钉推送返回结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+2025-11-06 21:36:12 [ERROR] : 钉钉推送返回异常结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+NoneType: None
+2025-11-06 21:36:12 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 21:36:12 [INFO] : 钉钉推送结果: 失败 - CVE-2025-12471漏洞
+2025-11-06 21:36:12 [INFO] : 插入新漏洞成功：CVE-2025-12560漏洞
+2025-11-06 21:36:12 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 117
+2025-11-06 21:36:12 [INFO] : 钉钉推送返回结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+2025-11-06 21:36:12 [ERROR] : 钉钉推送返回异常结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+NoneType: None
+2025-11-06 21:36:12 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 21:36:12 [INFO] : 钉钉推送结果: 失败 - CVE-2025-12560漏洞
+2025-11-06 21:36:12 [INFO] : 插入新漏洞成功：CVE-2025-9338 漏洞
+2025-11-06 21:36:12 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 116
+2025-11-06 21:36:13 [INFO] : 钉钉推送返回结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+2025-11-06 21:36:13 [ERROR] : 钉钉推送返回异常结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+NoneType: None
+2025-11-06 21:36:13 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 21:36:13 [INFO] : 钉钉推送结果: 失败 - CVE-2025-9338 漏洞
+2025-11-06 21:36:13 [INFO] : 插入新漏洞成功：CVE-2025-61994漏洞
+2025-11-06 21:36:13 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 117
+2025-11-06 21:36:14 [INFO] : 钉钉推送返回结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+2025-11-06 21:36:14 [ERROR] : 钉钉推送返回异常结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+NoneType: None
+2025-11-06 21:36:14 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 21:36:14 [INFO] : 钉钉推送结果: 失败 - CVE-2025-61994漏洞
+2025-11-06 21:36:14 [INFO] : 插入新漏洞成功：CVE-2025-12563漏洞
+2025-11-06 21:36:14 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 117
+2025-11-06 21:36:14 [INFO] : 钉钉推送返回结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+2025-11-06 21:36:14 [ERROR] : 钉钉推送返回异常结果: {'errcode': 310000, 'errmsg': '错误描述:机器人发送签名不匹配;解决方案:请确认签名和生成签名的时间戳必须都放在调用的网址中，请确认机器人的密钥加密和填写正确;参考链接:请参考本接口对应文档获得具体要求，或者在https://open.dingtalk.com/document/  搜索相关文档;'}
+NoneType: None
+2025-11-06 21:36:14 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 21:36:14 [INFO] : 钉钉推送结果: 失败 - CVE-2025-12563漏洞
+2025-11-06 21:36:14 [INFO] : 插入新漏洞成功：CVE-2025-11271漏洞
+2025-11-06 21:36:14 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 117
+2025-11-06 22:03:09 [INFO] : === 漏洞监控程序启动 ===
+2025-11-06 22:03:09 [INFO] : 开始运行，当前日期: 2025-11-06
+2025-11-06 22:03:09 [INFO] : 开始新一轮漏洞获取...当前日期: 2025-11-06
+2025-11-06 22:03:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2025-11-06 22:03:09 [INFO] : 正在获取 [OSCS1024漏洞库] 漏洞信息...
+2025-11-06 22:03:09 [INFO] : 使用CVE编号作为ID: CVE-2025-11268
+2025-11-06 22:03:09 [INFO] : 处理OSCS1024漏洞: CVE-2025-11268 漏洞, ID: CVE-2025-11268
+2025-11-06 22:03:09 [INFO] : 使用CVE编号作为ID: CVE-2025-12360
+2025-11-06 22:03:09 [INFO] : 处理OSCS1024漏洞: CVE-2025-12360漏洞, ID: CVE-2025-12360
+2025-11-06 22:03:09 [INFO] : 使用CVE编号作为ID: CVE-2025-10259
+2025-11-06 22:03:09 [INFO] : 处理OSCS1024漏洞: CVE-2025-10259 漏洞, ID: CVE-2025-10259
+2025-11-06 22:03:09 [INFO] : 使用CVE编号作为ID: CVE-2025-12471
+2025-11-06 22:03:09 [INFO] : 处理OSCS1024漏洞: CVE-2025-12471漏洞, ID: CVE-2025-12471
+2025-11-06 22:03:09 [INFO] : 使用CVE编号作为ID: CVE-2025-12560
+2025-11-06 22:03:09 [INFO] : 处理OSCS1024漏洞: CVE-2025-12560漏洞, ID: CVE-2025-12560
+2025-11-06 22:03:09 [INFO] : 使用CVE编号作为ID: CVE-2025-9338
+2025-11-06 22:03:09 [INFO] : 处理OSCS1024漏洞: CVE-2025-9338 漏洞, ID: CVE-2025-9338
+2025-11-06 22:03:09 [INFO] : 使用CVE编号作为ID: CVE-2025-61994
+2025-11-06 22:03:09 [INFO] : 处理OSCS1024漏洞: CVE-2025-61994漏洞, ID: CVE-2025-61994
+2025-11-06 22:03:09 [INFO] : 使用CVE编号作为ID: CVE-2025-12563
+2025-11-06 22:03:09 [INFO] : 处理OSCS1024漏洞: CVE-2025-12563漏洞, ID: CVE-2025-12563
+2025-11-06 22:03:09 [INFO] : 使用CVE编号作为ID: CVE-2025-11271
+2025-11-06 22:03:09 [INFO] : 处理OSCS1024漏洞: CVE-2025-11271漏洞, ID: CVE-2025-11271
+2025-11-06 22:03:09 [INFO] : 使用CVE编号作为ID: CVE-2025-10691
+2025-11-06 22:03:09 [INFO] : 处理OSCS1024漏洞: CVE-2025-10691漏洞, ID: CVE-2025-10691
+2025-11-06 22:03:09 [INFO] : 使用目标日期: 2025-11-06 过滤漏洞信息
+2025-11-06 22:03:09 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-11268 漏洞，ID：CVE-2025-11268
+2025-11-06 22:03:09 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-12360漏洞，ID：CVE-2025-12360
+2025-11-06 22:03:09 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-10259 漏洞，ID：CVE-2025-10259
+2025-11-06 22:03:09 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-12471漏洞，ID：CVE-2025-12471
+2025-11-06 22:03:09 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-12560漏洞，ID：CVE-2025-12560
+2025-11-06 22:03:09 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-9338 漏洞，ID：CVE-2025-9338
+2025-11-06 22:03:09 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-61994漏洞，ID：CVE-2025-61994
+2025-11-06 22:03:09 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-12563漏洞，ID：CVE-2025-12563
+2025-11-06 22:03:09 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-11271漏洞，ID：CVE-2025-11271
+2025-11-06 22:03:09 [INFO] : 发现新漏洞：CVE-2025-10691漏洞，ID：CVE-2025-10691
+2025-11-06 22:03:09 [INFO] : 日期筛选: 跳过 0 条非当天漏洞，跳过 9 条已存在漏洞，保留 1 条新漏洞
+2025-11-06 22:03:09 [INFO] : 得到 [OSCS1024漏洞库] 最新漏洞信息 [1] 条
+2025-11-06 22:03:09 [INFO] : --------------------------------------------
+2025-11-06 22:03:09 [INFO] : 从OSCS1024获取到 1 条新漏洞
+2025-11-06 22:03:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2025-11-06 22:03:11 [INFO] : 正在获取 [安天(antiycloud)] 威胁情报...
+2025-11-06 22:03:11 [INFO] : [安天(antiycloud)] 使用当前日期 20251106 获取安天威胁情报
+2025-11-06 22:03:12 [ERROR] : API返回状态不是success，状态为：except
+NoneType: None
+2025-11-06 22:03:12 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 22:03:12 [INFO] : 得到 [安天(antiycloud)] 新增威胁情报 [0/0] 条
+2025-11-06 22:03:12 [INFO] : --------------------------------------------
+2025-11-06 22:03:14 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2025-11-06 22:03:14 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2025-11-06 22:03:14 [INFO] : 发现新威胁情报：PocketVJ CP PocketVJ-CP-v3 pvj version 3.9.1 contains an unauthenticated remote code execution vulnerability in the submit_opacity.php component. The application fails to sanitize user input in the opacityValue POST parameter before passing it to a shell command, allowing remote attackers to execute arbitrary commands with root privileges on the underlying system.，ID：CVE-2025-63334
+2025-11-06 22:03:14 [INFO] : 发现新威胁情报：A reflected cross-site scripting (XSS) vulnerability exists in the management console of multiple WSO2 products due to improper output encoding. By tampering with specific parameters, a malicious actor can inject arbitrary JavaScript into the response, leading to reflected XSS. Successful exploitation could result in UI manipulation, redirection to malicious websites, or data theft from the browser. However, session-related sensitive cookies are protected with the httpOnly flag, which mitigates the risk of session hijacking.，ID：CVE-2025-10853
+2025-11-06 22:03:14 [INFO] : 发现新威胁情报：A DOM-based Cross-Site Scripting (XSS) vulnerability in the SelfBest platform 2023.3 allows attackers to execute arbitrary JavaScript in the context of a logged-in user's session by injecting payloads via the browser's developer console. The vulnerability arises from the application's client-side code being susceptible to direct DOM manipulation without adequate sanitization or a Content Security Policy (CSP), potentially leading to account takeover and data theft.，ID：CVE-2025-63418
+2025-11-06 22:03:14 [INFO] : 发现新威胁情报：A Stored Cross-Site Scripting (XSS) vulnerability in the chat functionality of the SelfBest platform 2023.3 allows authenticated attackers to inject arbitrary web scripts or HTML via the chat message input field. This malicious content is stored and then executed in the context of other users' browsers when they view the malicious message, potentially leading to session hijacking, account takeover, or other client-side attacks.，ID：CVE-2025-63417
+2025-11-06 22:03:14 [INFO] : 发现新威胁情报：** exclusively-hosted-service ** A Stored Cross-Site Scripting (XSS) vulnerability in the chat functionality of the SelfBest platform 2023.3 allows authenticated low-privileged attackers to execute arbitrary JavaScript in the context of other users' sessions. This can be exploited to access administrative data and functions, leading to privilege escalation and full compromise of sensitive user data, as demonstrated by the ability to fetch and exfiltrate the contents of the /admin/users endpoint.，ID：CVE-2025-63416
+2025-11-06 22:03:14 [INFO] : 发现新威胁情报：A reflected cross-site scripting (XSS) vulnerability exists in the authentication endpoints of multiple WSO2 products due to a lack of output encoding. A malicious actor can inject arbitrary JavaScript payloads into the authentication endpoint, which are reflected back in the response, enabling browser-based attacks. Exploitation may result in redirection to malicious websites, UI manipulation, or unauthorized data access from the victim’s browser. However, session-related cookies are protected with the httpOnly flag, which mitigates session hijacking via this vector.，ID：CVE-2025-5770
+2025-11-06 22:03:14 [INFO] : 发现新威胁情报：GOG Galaxy 2.0.0.2 suffers from Missing SSL Certificate Validation. An attacker who controls the local network, DNS, or a proxy can perform a man-in-the-middle (MitM) attack to intercept update requests and replace installer or update packages with malicious files.，ID：CVE-2025-56232
+2025-11-06 22:03:14 [INFO] : 发现新威胁情报：Quipux 4.0.1 through e1774ac allows authenticated users to conduct SQL injection attacks via busqueda/busqueda.php txt_depe_codi, busqueda/busqueda.php txt_usua_codi, anexos_lista.php radi_temp, Administracion/listas/formArea_ajax.php codDepe, Administracion/listas/formDepeHijo_ajax.php codDepe, Administracion/listas/formDepePadre_ajax.php codInst, asociar_documentos/asociar_borrar_referencia.php radi_nume, asociar_documentos/asociar_documento_buscar_query.php radi_nume, asociar_documentos/asociar_documento_grabar.php txt_radi_nume, asociar_documentos/asociar_documento radi_nume, radicacion/buscar_usuario.php buscar_tipo, radicacion/formArea_ajax.php codDepe, radicacion/formDepeHijo_ajax.php codDepe, radicacion/formDepePadre_ajax.php codInst, radicacion/ver_datos_usuario.php destinatorio, reportes/reporte_TraspasoDocFisico.php verrad, tx/datos_imprimir_sobre.php txt_usua_codi, tx/datos_imprimir_sobre.php nume_radi_temp, tx/revertir_firma_digital_grabar.php txt_radi_nume, tx/tx_borrar_opcion_imp.php codigo_opc, tx/tx_realizar_tx.php txt_radicados, tx/tx_seguridad_documentos.php txt_radicados, or uploadFiles/cargar_doc_digitalizado_paginador.php txt_depe_codi.，ID：CVE-2025-55343
+2025-11-06 22:03:14 [INFO] : 发现新威胁情报：Quipux 4.0.1 through e1774ac allows enumeration of usernames, and accessing the Ecuadorean identification number for all registered users via the Administracion/usuarios/cambiar_password_olvido_validar.php txt_login parameter.，ID：CVE-2025-55342
+2025-11-06 22:03:14 [INFO] : 发现新威胁情报：Cross Site Scripting vulnerability in Quipux 4.0.1 through e1774ac allows anexos/anexos_nuevo.php asocImgRad.，ID：CVE-2025-55341
+2025-11-06 22:03:14 [INFO] : 得到 [Tenable (Nessus)] 新增威胁情报 [10/10] 条
+2025-11-06 22:03:14 [INFO] : --------------------------------------------
+2025-11-06 22:03:14 [INFO] : 从Tenable获取到 10 条新漏洞
+2025-11-06 22:03:16 [INFO] : 正在从微软安全响应中心获取数据...
+2025-11-06 22:03:19 [INFO] : 微软安全响应中心API返回数据总量: 17359 条
+2025-11-06 22:03:19 [INFO] : 使用当前日期 2025-11-06 过滤微软安全响应中心漏洞
+2025-11-06 22:03:19 [INFO] : 从微软安全响应中心获取到 0/0 条新漏洞数据
+2025-11-06 22:03:21 [INFO] : [CVE漏洞库] 开始获取最新CVE信息
+2025-11-06 22:03:24 [INFO] : [CVE漏洞库] 使用当前日期 2025-11-06 过滤CVE信息
+2025-11-06 22:03:24 [INFO] : CVE已存在，跳过: CVE-2025-11268漏洞
+2025-11-06 22:03:24 [INFO] : CVE已存在，跳过: CVE-2025-12360漏洞
+2025-11-06 22:03:24 [INFO] : CVE已存在，跳过: CVE-2025-10259漏洞
+2025-11-06 22:03:24 [INFO] : CVE已存在，跳过: CVE-2025-12471漏洞
+2025-11-06 22:03:24 [INFO] : CVE已存在，跳过: CVE-2025-9338漏洞
+2025-11-06 22:03:24 [INFO] : CVE已存在，跳过: CVE-2025-12560漏洞
+2025-11-06 22:03:24 [INFO] : CVE已存在，跳过: CVE-2025-11271漏洞
+2025-11-06 22:03:24 [INFO] : CVE已存在，跳过: CVE-2025-12563漏洞
+2025-11-06 22:03:24 [INFO] : CVE已存在，跳过: CVE-2025-61994漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64472漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64473漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64474漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64475漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64476漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64477漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64478漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64479漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64480漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-10691漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-10683漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64164漏洞
+2025-11-06 22:03:24 [INFO] : 发现新CVE: CVE-2025-64171漏洞
+2025-11-06 22:03:24 [INFO] : [CVE漏洞库] 获取到 13/22 条新CVE信息
+2025-11-06 22:03:24 [INFO] : 从CVE漏洞库获取到 13 条新漏洞
+2025-11-06 22:03:24 [INFO] : 本次总共获取到 24 条新漏洞信息
+2025-11-06 22:03:24 [INFO] : 开始读取配置文件...
+2025-11-06 22:03:24 [INFO] : 配置文件读取成功
+2025-11-06 22:03:24 [INFO] : 启用钉钉推送，webhook长度: 114, secretKey长度: 67
+2025-11-06 22:03:24 [INFO] : 获取到推送配置，使用 dingding 服务
+2025-11-06 22:03:24 [INFO] : 插入新漏洞成功：CVE-2025-10691漏洞
+2025-11-06 22:03:24 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 117
+2025-11-06 22:03:25 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:25 [INFO] : 钉钉推送成功
+2025-11-06 22:03:25 [INFO] : 钉钉推送结果: 成功 - CVE-2025-10691漏洞
+2025-11-06 22:03:25 [INFO] : 插入新漏洞成功：PocketVJ CP PocketVJ-CP-v3 pvj version 3.9.1 contains an unauthenticated remote code execution vulnerability in the submit_opacity.php component. The application fails to sanitize user input in the opacityValue POST parameter before passing it to a shell command, allowing remote attackers to execute arbitrary commands with root privileges on the underlying system.
+2025-11-06 22:03:25 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 482
+2025-11-06 22:03:25 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:25 [INFO] : 钉钉推送成功
+2025-11-06 22:03:25 [INFO] : 钉钉推送结果: 成功 - PocketVJ CP PocketVJ-CP-v3 pvj version 3.9.1 contains an unauthenticated remote code execution vulnerability in the submit_opacity.php component. The application fails to sanitize user input in the opacityValue POST parameter before passing it to a shell command, allowing remote attackers to execute arbitrary commands with root privileges on the underlying system.
+2025-11-06 22:03:25 [INFO] : 插入新漏洞成功：A reflected cross-site scripting (XSS) vulnerability exists in the management console of multiple WSO2 products due to improper output encoding. By tampering with specific parameters, a malicious actor can inject arbitrary JavaScript into the response, leading to reflected XSS. Successful exploitation could result in UI manipulation, redirection to malicious websites, or data theft from the browser. However, session-related sensitive cookies are protected with the httpOnly flag, which mitigates the risk of session hijacking.
+2025-11-06 22:03:25 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 646
+2025-11-06 22:03:26 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:26 [INFO] : 钉钉推送成功
+2025-11-06 22:03:26 [INFO] : 钉钉推送结果: 成功 - A reflected cross-site scripting (XSS) vulnerability exists in the management console of multiple WSO2 products due to improper output encoding. By tampering with specific parameters, a malicious actor can inject arbitrary JavaScript into the response, leading to reflected XSS. Successful exploitation could result in UI manipulation, redirection to malicious websites, or data theft from the browser. However, session-related sensitive cookies are protected with the httpOnly flag, which mitigates the risk of session hijacking.
+2025-11-06 22:03:26 [INFO] : 插入新漏洞成功：A DOM-based Cross-Site Scripting (XSS) vulnerability in the SelfBest platform 2023.3 allows attackers to execute arbitrary JavaScript in the context of a logged-in user's session by injecting payloads via the browser's developer console. The vulnerability arises from the application's client-side code being susceptible to direct DOM manipulation without adequate sanitization or a Content Security Policy (CSP), potentially leading to account takeover and data theft.
+2025-11-06 22:03:26 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 585
+2025-11-06 22:03:26 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:26 [INFO] : 钉钉推送成功
+2025-11-06 22:03:26 [INFO] : 钉钉推送结果: 成功 - A DOM-based Cross-Site Scripting (XSS) vulnerability in the SelfBest platform 2023.3 allows attackers to execute arbitrary JavaScript in the context of a logged-in user's session by injecting payloads via the browser's developer console. The vulnerability arises from the application's client-side code being susceptible to direct DOM manipulation without adequate sanitization or a Content Security Policy (CSP), potentially leading to account takeover and data theft.
+2025-11-06 22:03:26 [INFO] : 插入新漏洞成功：A Stored Cross-Site Scripting (XSS) vulnerability in the chat functionality of the SelfBest platform 2023.3 allows authenticated attackers to inject arbitrary web scripts or HTML via the chat message input field. This malicious content is stored and then executed in the context of other users' browsers when they view the malicious message, potentially leading to session hijacking, account takeover, or other client-side attacks.
+2025-11-06 22:03:26 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 547
+2025-11-06 22:03:27 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:27 [INFO] : 钉钉推送成功
+2025-11-06 22:03:27 [INFO] : 钉钉推送结果: 成功 - A Stored Cross-Site Scripting (XSS) vulnerability in the chat functionality of the SelfBest platform 2023.3 allows authenticated attackers to inject arbitrary web scripts or HTML via the chat message input field. This malicious content is stored and then executed in the context of other users' browsers when they view the malicious message, potentially leading to session hijacking, account takeover, or other client-side attacks.
+2025-11-06 22:03:27 [INFO] : 插入新漏洞成功：** exclusively-hosted-service ** A Stored Cross-Site Scripting (XSS) vulnerability in the chat functionality of the SelfBest platform 2023.3 allows authenticated low-privileged attackers to execute arbitrary JavaScript in the context of other users' sessions. This can be exploited to access administrative data and functions, leading to privilege escalation and full compromise of sensitive user data, as demonstrated by the ability to fetch and exfiltrate the contents of the /admin/users endpoint.
+2025-11-06 22:03:27 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 616
+2025-11-06 22:03:28 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:28 [INFO] : 钉钉推送成功
+2025-11-06 22:03:28 [INFO] : 钉钉推送结果: 成功 - ** exclusively-hosted-service ** A Stored Cross-Site Scripting (XSS) vulnerability in the chat functionality of the SelfBest platform 2023.3 allows authenticated low-privileged attackers to execute arbitrary JavaScript in the context of other users' sessions. This can be exploited to access administrative data and functions, leading to privilege escalation and full compromise of sensitive user data, as demonstrated by the ability to fetch and exfiltrate the contents of the /admin/users endpoint.
+2025-11-06 22:03:28 [INFO] : 插入新漏洞成功：A reflected cross-site scripting (XSS) vulnerability exists in the authentication endpoints of multiple WSO2 products due to a lack of output encoding. A malicious actor can inject arbitrary JavaScript payloads into the authentication endpoint, which are reflected back in the response, enabling browser-based attacks. Exploitation may result in redirection to malicious websites, UI manipulation, or unauthorized data access from the victim’s browser. However, session-related cookies are protected with the httpOnly flag, which mitigates session hijacking via this vector.
+2025-11-06 22:03:28 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 688
+2025-11-06 22:03:28 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:28 [INFO] : 钉钉推送成功
+2025-11-06 22:03:28 [INFO] : 钉钉推送结果: 成功 - A reflected cross-site scripting (XSS) vulnerability exists in the authentication endpoints of multiple WSO2 products due to a lack of output encoding. A malicious actor can inject arbitrary JavaScript payloads into the authentication endpoint, which are reflected back in the response, enabling browser-based attacks. Exploitation may result in redirection to malicious websites, UI manipulation, or unauthorized data access from the victim’s browser. However, session-related cookies are protected with the httpOnly flag, which mitigates session hijacking via this vector.
+2025-11-06 22:03:28 [INFO] : 插入新漏洞成功：GOG Galaxy 2.0.0.2 suffers from Missing SSL Certificate Validation. An attacker who controls the local network, DNS, or a proxy can perform a man-in-the-middle (MitM) attack to intercept update requests and replace installer or update packages with malicious files.
+2025-11-06 22:03:28 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 381
+2025-11-06 22:03:29 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:29 [INFO] : 钉钉推送成功
+2025-11-06 22:03:29 [INFO] : 钉钉推送结果: 成功 - GOG Galaxy 2.0.0.2 suffers from Missing SSL Certificate Validation. An attacker who controls the local network, DNS, or a proxy can perform a man-in-the-middle (MitM) attack to intercept update requests and replace installer or update packages with malicious files.
+2025-11-06 22:03:29 [INFO] : 插入新漏洞成功：Quipux 4.0.1 through e1774ac allows authenticated users to conduct SQL injection attacks via busqueda/busqueda.php txt_depe_codi, busqueda/busqueda.php txt_usua_codi, anexos_lista.php radi_temp, Administracion/listas/formArea_ajax.php codDepe, Administracion/listas/formDepeHijo_ajax.php codDepe, Administracion/listas/formDepePadre_ajax.php codInst, asociar_documentos/asociar_borrar_referencia.php radi_nume, asociar_documentos/asociar_documento_buscar_query.php radi_nume, asociar_documentos/asociar_documento_grabar.php txt_radi_nume, asociar_documentos/asociar_documento radi_nume, radicacion/buscar_usuario.php buscar_tipo, radicacion/formArea_ajax.php codDepe, radicacion/formDepeHijo_ajax.php codDepe, radicacion/formDepePadre_ajax.php codInst, radicacion/ver_datos_usuario.php destinatorio, reportes/reporte_TraspasoDocFisico.php verrad, tx/datos_imprimir_sobre.php txt_usua_codi, tx/datos_imprimir_sobre.php nume_radi_temp, tx/revertir_firma_digital_grabar.php txt_radi_nume, tx/tx_borrar_opcion_imp.php codigo_opc, tx/tx_realizar_tx.php txt_radicados, tx/tx_seguridad_documentos.php txt_radicados, or uploadFiles/cargar_doc_digitalizado_paginador.php txt_depe_codi.
+2025-11-06 22:03:29 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 1292
+2025-11-06 22:03:29 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:29 [INFO] : 钉钉推送成功
+2025-11-06 22:03:29 [INFO] : 钉钉推送结果: 成功 - Quipux 4.0.1 through e1774ac allows authenticated users to conduct SQL injection attacks via busqueda/busqueda.php txt_depe_codi, busqueda/busqueda.php txt_usua_codi, anexos_lista.php radi_temp, Administracion/listas/formArea_ajax.php codDepe, Administracion/listas/formDepeHijo_ajax.php codDepe, Administracion/listas/formDepePadre_ajax.php codInst, asociar_documentos/asociar_borrar_referencia.php radi_nume, asociar_documentos/asociar_documento_buscar_query.php radi_nume, asociar_documentos/asociar_documento_grabar.php txt_radi_nume, asociar_documentos/asociar_documento radi_nume, radicacion/buscar_usuario.php buscar_tipo, radicacion/formArea_ajax.php codDepe, radicacion/formDepeHijo_ajax.php codDepe, radicacion/formDepePadre_ajax.php codInst, radicacion/ver_datos_usuario.php destinatorio, reportes/reporte_TraspasoDocFisico.php verrad, tx/datos_imprimir_sobre.php txt_usua_codi, tx/datos_imprimir_sobre.php nume_radi_temp, tx/revertir_firma_digital_grabar.php txt_radi_nume, tx/tx_borrar_opcion_imp.php codigo_opc, tx/tx_realizar_tx.php txt_radicados, tx/tx_seguridad_documentos.php txt_radicados, or uploadFiles/cargar_doc_digitalizado_paginador.php txt_depe_codi.
+2025-11-06 22:03:29 [INFO] : 插入新漏洞成功：Quipux 4.0.1 through e1774ac allows enumeration of usernames, and accessing the Ecuadorean identification number for all registered users via the Administracion/usuarios/cambiar_password_olvido_validar.php txt_login parameter.
+2025-11-06 22:03:29 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 342
+2025-11-06 22:03:30 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:30 [INFO] : 钉钉推送成功
+2025-11-06 22:03:30 [INFO] : 钉钉推送结果: 成功 - Quipux 4.0.1 through e1774ac allows enumeration of usernames, and accessing the Ecuadorean identification number for all registered users via the Administracion/usuarios/cambiar_password_olvido_validar.php txt_login parameter.
+2025-11-06 22:03:30 [INFO] : 插入新漏洞成功：Cross Site Scripting vulnerability in Quipux 4.0.1 through e1774ac allows anexos/anexos_nuevo.php asocImgRad.
+2025-11-06 22:03:30 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 225
+2025-11-06 22:03:30 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:30 [INFO] : 钉钉推送成功
+2025-11-06 22:03:30 [INFO] : 钉钉推送结果: 成功 - Cross Site Scripting vulnerability in Quipux 4.0.1 through e1774ac allows anexos/anexos_nuevo.php asocImgRad.
+2025-11-06 22:03:30 [INFO] : 插入新漏洞成功：CVE-2025-64472漏洞
+2025-11-06 22:03:30 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:31 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:31 [INFO] : 钉钉推送成功
+2025-11-06 22:03:31 [INFO] : 钉钉推送结果: 成功 - CVE-2025-64472漏洞
+2025-11-06 22:03:31 [INFO] : 插入新漏洞成功：CVE-2025-64473漏洞
+2025-11-06 22:03:31 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:31 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:31 [INFO] : 钉钉推送成功
+2025-11-06 22:03:31 [INFO] : 钉钉推送结果: 成功 - CVE-2025-64473漏洞
+2025-11-06 22:03:31 [INFO] : 插入新漏洞成功：CVE-2025-64474漏洞
+2025-11-06 22:03:31 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:32 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:32 [INFO] : 钉钉推送成功
+2025-11-06 22:03:32 [INFO] : 钉钉推送结果: 成功 - CVE-2025-64474漏洞
+2025-11-06 22:03:32 [INFO] : 插入新漏洞成功：CVE-2025-64475漏洞
+2025-11-06 22:03:32 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:33 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:33 [INFO] : 钉钉推送成功
+2025-11-06 22:03:33 [INFO] : 钉钉推送结果: 成功 - CVE-2025-64475漏洞
+2025-11-06 22:03:33 [INFO] : 插入新漏洞成功：CVE-2025-64476漏洞
+2025-11-06 22:03:33 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:33 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:33 [INFO] : 钉钉推送成功
+2025-11-06 22:03:33 [INFO] : 钉钉推送结果: 成功 - CVE-2025-64476漏洞
+2025-11-06 22:03:33 [INFO] : 插入新漏洞成功：CVE-2025-64477漏洞
+2025-11-06 22:03:33 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:34 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:34 [INFO] : 钉钉推送成功
+2025-11-06 22:03:34 [INFO] : 钉钉推送结果: 成功 - CVE-2025-64477漏洞
+2025-11-06 22:03:34 [INFO] : 插入新漏洞成功：CVE-2025-64478漏洞
+2025-11-06 22:03:34 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:34 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:34 [INFO] : 钉钉推送成功
+2025-11-06 22:03:34 [INFO] : 钉钉推送结果: 成功 - CVE-2025-64478漏洞
+2025-11-06 22:03:34 [INFO] : 插入新漏洞成功：CVE-2025-64479漏洞
+2025-11-06 22:03:34 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:35 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:35 [INFO] : 钉钉推送成功
+2025-11-06 22:03:35 [INFO] : 钉钉推送结果: 成功 - CVE-2025-64479漏洞
+2025-11-06 22:03:35 [INFO] : 插入新漏洞成功：CVE-2025-64480漏洞
+2025-11-06 22:03:35 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:35 [INFO] : 钉钉推送返回结果: {'errcode': 0, 'errmsg': 'ok'}
+2025-11-06 22:03:35 [INFO] : 钉钉推送成功
+2025-11-06 22:03:35 [INFO] : 钉钉推送结果: 成功 - CVE-2025-64480漏洞
+2025-11-06 22:03:35 [WARNING] : 插入数据时唯一性约束错误（意外情况）：CVE-2025-10691漏洞，错误：UNIQUE constraint failed: vulnerabilities.id
+2025-11-06 22:03:35 [INFO] : 插入新漏洞成功：CVE-2025-10683漏洞
+2025-11-06 22:03:35 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:36 [INFO] : 钉钉推送返回结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+2025-11-06 22:03:36 [ERROR] : 钉钉推送返回异常结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+NoneType: None
+2025-11-06 22:03:36 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 22:03:36 [INFO] : 钉钉推送结果: 失败 - CVE-2025-10683漏洞
+2025-11-06 22:03:36 [INFO] : 插入新漏洞成功：CVE-2025-64164漏洞
+2025-11-06 22:03:36 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:36 [INFO] : 钉钉推送返回结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+2025-11-06 22:03:36 [ERROR] : 钉钉推送返回异常结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+NoneType: None
+2025-11-06 22:03:36 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 22:03:36 [INFO] : 钉钉推送结果: 失败 - CVE-2025-64164漏洞
+2025-11-06 22:03:36 [INFO] : 插入新漏洞成功：CVE-2025-64171漏洞
+2025-11-06 22:03:36 [INFO] : 准备推送钉钉消息，webhook: https://oapi.dingtal...，内容长度: 132
+2025-11-06 22:03:37 [INFO] : 钉钉推送返回结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+2025-11-06 22:03:37 [ERROR] : 钉钉推送返回异常结果: {'errcode': 660026, 'errmsg': 'sending too many messages per minute'}
+NoneType: None
+2025-11-06 22:03:37 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 22:03:37 [INFO] : 钉钉推送结果: 失败 - CVE-2025-64171漏洞
+2025-11-06 22:03:37 [INFO] : 成功插入 23 条漏洞记录，失败 1 条
+2025-11-06 22:03:37 [INFO] : 本轮漏洞获取完成，等待下一轮...
+2025-11-06 22:08:37 [INFO] : 开始新一轮漏洞获取...当前日期: 2025-11-06
+2025-11-06 22:08:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2025-11-06 22:08:37 [INFO] : 正在获取 [OSCS1024漏洞库] 漏洞信息...
+2025-11-06 22:08:37 [INFO] : 使用CVE编号作为ID: CVE-2025-11268
+2025-11-06 22:08:37 [INFO] : 处理OSCS1024漏洞: CVE-2025-11268 漏洞, ID: CVE-2025-11268
+2025-11-06 22:08:37 [INFO] : 使用CVE编号作为ID: CVE-2025-12360
+2025-11-06 22:08:37 [INFO] : 处理OSCS1024漏洞: CVE-2025-12360漏洞, ID: CVE-2025-12360
+2025-11-06 22:08:37 [INFO] : 使用CVE编号作为ID: CVE-2025-10259
+2025-11-06 22:08:37 [INFO] : 处理OSCS1024漏洞: CVE-2025-10259 漏洞, ID: CVE-2025-10259
+2025-11-06 22:08:37 [INFO] : 使用CVE编号作为ID: CVE-2025-12471
+2025-11-06 22:08:37 [INFO] : 处理OSCS1024漏洞: CVE-2025-12471漏洞, ID: CVE-2025-12471
+2025-11-06 22:08:37 [INFO] : 使用CVE编号作为ID: CVE-2025-12560
+2025-11-06 22:08:37 [INFO] : 处理OSCS1024漏洞: CVE-2025-12560漏洞, ID: CVE-2025-12560
+2025-11-06 22:08:37 [INFO] : 使用CVE编号作为ID: CVE-2025-9338
+2025-11-06 22:08:37 [INFO] : 处理OSCS1024漏洞: CVE-2025-9338 漏洞, ID: CVE-2025-9338
+2025-11-06 22:08:37 [INFO] : 使用CVE编号作为ID: CVE-2025-61994
+2025-11-06 22:08:37 [INFO] : 处理OSCS1024漏洞: CVE-2025-61994漏洞, ID: CVE-2025-61994
+2025-11-06 22:08:37 [INFO] : 使用CVE编号作为ID: CVE-2025-12563
+2025-11-06 22:08:37 [INFO] : 处理OSCS1024漏洞: CVE-2025-12563漏洞, ID: CVE-2025-12563
+2025-11-06 22:08:37 [INFO] : 使用CVE编号作为ID: CVE-2025-11271
+2025-11-06 22:08:37 [INFO] : 处理OSCS1024漏洞: CVE-2025-11271漏洞, ID: CVE-2025-11271
+2025-11-06 22:08:37 [INFO] : 使用CVE编号作为ID: CVE-2025-10691
+2025-11-06 22:08:37 [INFO] : 处理OSCS1024漏洞: CVE-2025-10691漏洞, ID: CVE-2025-10691
+2025-11-06 22:08:37 [INFO] : 使用目标日期: 2025-11-06 过滤漏洞信息
+2025-11-06 22:08:37 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-11268 漏洞，ID：CVE-2025-11268
+2025-11-06 22:08:37 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-12360漏洞，ID：CVE-2025-12360
+2025-11-06 22:08:37 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-10259 漏洞，ID：CVE-2025-10259
+2025-11-06 22:08:37 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-12471漏洞，ID：CVE-2025-12471
+2025-11-06 22:08:37 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-12560漏洞，ID：CVE-2025-12560
+2025-11-06 22:08:37 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-9338 漏洞，ID：CVE-2025-9338
+2025-11-06 22:08:37 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-61994漏洞，ID：CVE-2025-61994
+2025-11-06 22:08:37 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-12563漏洞，ID：CVE-2025-12563
+2025-11-06 22:08:37 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-11271漏洞，ID：CVE-2025-11271
+2025-11-06 22:08:37 [INFO] : 漏洞已存在于数据库中，跳过：CVE-2025-10691漏洞，ID：CVE-2025-10691
+2025-11-06 22:08:37 [INFO] : 日期筛选: 跳过 0 条非当天漏洞，跳过 10 条已存在漏洞，保留 0 条新漏洞
+2025-11-06 22:08:37 [INFO] : 得到 [OSCS1024漏洞库] 最新漏洞信息 [0] 条
+2025-11-06 22:08:37 [INFO] : --------------------------------------------
+2025-11-06 22:08:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2025-11-06 22:08:39 [INFO] : 正在获取 [安天(antiycloud)] 威胁情报...
+2025-11-06 22:08:39 [INFO] : [安天(antiycloud)] 使用当前日期 20251106 获取安天威胁情报
+2025-11-06 22:08:40 [ERROR] : API返回状态不是success，状态为：except
+NoneType: None
+2025-11-06 22:08:40 [ERROR] : NoneType: None
+NoneType: None
+2025-11-06 22:08:40 [INFO] : 得到 [安天(antiycloud)] 新增威胁情报 [0/0] 条
+2025-11-06 22:08:40 [INFO] : --------------------------------------------
+2025-11-06 22:08:42 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2025-11-06 22:08:42 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2025-11-06 22:08:44 [INFO] : 威胁情报已存在于数据库中，跳过：PocketVJ CP PocketVJ-CP-v3 pvj version 3.9.1 contains an unauthenticated remote code execution vulnerability in the submit_opacity.php component. The application fails to sanitize user input in the opacityValue POST parameter before passing it to a shell command, allowing remote attackers to execute arbitrary commands with root privileges on the underlying system.
+2025-11-06 22:08:44 [INFO] : 威胁情报已存在于数据库中，跳过：A reflected cross-site scripting (XSS) vulnerability exists in the management console of multiple WSO2 products due to improper output encoding. By tampering with specific parameters, a malicious actor can inject arbitrary JavaScript into the response, leading to reflected XSS. Successful exploitation could result in UI manipulation, redirection to malicious websites, or data theft from the browser. However, session-related sensitive cookies are protected with the httpOnly flag, which mitigates the risk of session hijacking.
+2025-11-06 22:08:44 [INFO] : 威胁情报已存在于数据库中，跳过：A DOM-based Cross-Site Scripting (XSS) vulnerability in the SelfBest platform 2023.3 allows attackers to execute arbitrary JavaScript in the context of a logged-in user's session by injecting payloads via the browser's developer console. The vulnerability arises from the application's client-side code being susceptible to direct DOM manipulation without adequate sanitization or a Content Security Policy (CSP), potentially leading to account takeover and data theft.
+2025-11-06 22:08:44 [INFO] : 威胁情报已存在于数据库中，跳过：A Stored Cross-Site Scripting (XSS) vulnerability in the chat functionality of the SelfBest platform 2023.3 allows authenticated attackers to inject arbitrary web scripts or HTML via the chat message input field. This malicious content is stored and then executed in the context of other users' browsers when they view the malicious message, potentially leading to session hijacking, account takeover, or other client-side attacks.
+2025-11-06 22:08:44 [INFO] : 威胁情报已存在于数据库中，跳过：** exclusively-hosted-service ** A Stored Cross-Site Scripting (XSS) vulnerability in the chat functionality of the SelfBest platform 2023.3 allows authenticated low-privileged attackers to execute arbitrary JavaScript in the context of other users' sessions. This can be exploited to access administrative data and functions, leading to privilege escalation and full compromise of sensitive user data, as demonstrated by the ability to fetch and exfiltrate the contents of the /admin/users endpoint.
+2025-11-06 22:08:44 [INFO] : 威胁情报已存在于数据库中，跳过：A reflected cross-site scripting (XSS) vulnerability exists in the authentication endpoints of multiple WSO2 products due to a lack of output encoding. A malicious actor can inject arbitrary JavaScript payloads into the authentication endpoint, which are reflected back in the response, enabling browser-based attacks. Exploitation may result in redirection to malicious websites, UI manipulation, or unauthorized data access from the victim’s browser. However, session-related cookies are protected with the httpOnly flag, which mitigates session hijacking via this vector.
+2025-11-06 22:08:44 [INFO] : 威胁情报已存在于数据库中，跳过：GOG Galaxy 2.0.0.2 suffers from Missing SSL Certificate Validation. An attacker who controls the local network, DNS, or a proxy can perform a man-in-the-middle (MitM) attack to intercept update requests and replace installer or update packages with malicious files.
+2025-11-06 22:08:44 [INFO] : 威胁情报已存在于数据库中，跳过：Quipux 4.0.1 through e1774ac allows authenticated users to conduct SQL injection attacks via busqueda/busqueda.php txt_depe_codi, busqueda/busqueda.php txt_usua_codi, anexos_lista.php radi_temp, Administracion/listas/formArea_ajax.php codDepe, Administracion/listas/formDepeHijo_ajax.php codDepe, Administracion/listas/formDepePadre_ajax.php codInst, asociar_documentos/asociar_borrar_referencia.php radi_nume, asociar_documentos/asociar_documento_buscar_query.php radi_nume, asociar_documentos/asociar_documento_grabar.php txt_radi_nume, asociar_documentos/asociar_documento radi_nume, radicacion/buscar_usuario.php buscar_tipo, radicacion/formArea_ajax.php codDepe, radicacion/formDepeHijo_ajax.php codDepe, radicacion/formDepePadre_ajax.php codInst, radicacion/ver_datos_usuario.php destinatorio, reportes/reporte_TraspasoDocFisico.php verrad, tx/datos_imprimir_sobre.php txt_usua_codi, tx/datos_imprimir_sobre.php nume_radi_temp, tx/revertir_firma_digital_grabar.php txt_radi_nume, tx/tx_borrar_opcion_imp.php codigo_opc, tx/tx_realizar_tx.php txt_radicados, tx/tx_seguridad_documentos.php txt_radicados, or uploadFiles/cargar_doc_digitalizado_paginador.php txt_depe_codi.
+2025-11-06 22:08:44 [INFO] : 威胁情报已存在于数据库中，跳过：Quipux 4.0.1 through e1774ac allows enumeration of usernames, and accessing the Ecuadorean identification number for all registered users via the Administracion/usuarios/cambiar_password_olvido_validar.php txt_login parameter.
+2025-11-06 22:08:44 [INFO] : 威胁情报已存在于数据库中，跳过：Cross Site Scripting vulnerability in Quipux 4.0.1 through e1774ac allows anexos/anexos_nuevo.php asocImgRad.
+2025-11-06 22:08:44 [INFO] : 得到 [Tenable (Nessus)] 新增威胁情报 [0/10] 条
+2025-11-06 22:08:44 [INFO] : --------------------------------------------
+2025-11-06 22:08:46 [INFO] : 正在从微软安全响应中心获取数据...
+2025-11-06 22:08:49 [INFO] : 微软安全响应中心API返回数据总量: 17359 条
+2025-11-06 22:08:49 [INFO] : 使用当前日期 2025-11-06 过滤微软安全响应中心漏洞
+2025-11-06 22:08:49 [INFO] : 从微软安全响应中心获取到 0/0 条新漏洞数据
+2025-11-06 22:08:51 [INFO] : [CVE漏洞库] 开始获取最新CVE信息
+2025-11-06 22:08:52 [INFO] : [CVE漏洞库] 使用当前日期 2025-11-06 过滤CVE信息
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-11268漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-12360漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-10259漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-12471漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-9338漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-12560漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-11271漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-12563漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-61994漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64472漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64473漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64474漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64475漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64476漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64477漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64478漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64479漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64480漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-10691漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-10683漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64164漏洞
+2025-11-06 22:08:52 [INFO] : CVE已存在，跳过: CVE-2025-64171漏洞
+2025-11-06 22:08:52 [INFO] : [CVE漏洞库] 获取到 0/22 条新CVE信息
+2025-11-06 22:08:52 [INFO] : 本次总共获取到 0 条新漏洞信息
+2025-11-06 22:08:52 [INFO] : 本次未获取到任何新漏洞信息
+2025-11-06 22:08:52 [INFO] : 本轮漏洞获取完成，等待下一轮...
