@@ -62,7 +62,7 @@ system:
 直接运行主程序即可：
 
 ```bash
-python bug_msg.py
+python CVE_monitor.py
 ```
 
 程序会自动创建所需的目录和数据库，并开始监控和推送最新的CVE信息。
